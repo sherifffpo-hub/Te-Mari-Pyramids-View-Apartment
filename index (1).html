@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Te-Mari — Pyramids View Apartment, Giza</title>
+<meta name="description" content="A 240 sqm apartment at the foot of the Giza plateau. Three bedrooms, daily breakfast, tours and airport pickup.">
+
+<!-- ===== EDIT THESE TWO LINES FOR SOCIAL PREVIEWS ===== -->
+<meta property="og:title" content="Te-Mari — Pyramids View Apartment">
+<meta property="og:description" content="Open the curtains. They're right there.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400&family=Karla:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --papyrus:#FCFAF6;
+    --limestone:#E6DFD1;
+    --ink:#1B2430;
+    --ink-soft:#5A6573;
+    --faience:#2F7A78;
+    --lapis:#1C3A5E;
+  }
+
+  *{box-sizing:border-box}
+
+  html{-webkit-text-size-adjust:100%}
+
+  body{
+    margin:0;
+    min-height:100vh;
+    background:var(--papyrus);
+    color:var(--ink);
+    font-family:'Karla',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    font-weight:300;
+    -webkit-font-smoothing:antialiased;
+    display:flex;
+    justify-content:center;
+  }
+
+  .wrap{
+    width:100%;
+    max-width:430px;
+    padding:clamp(2.6rem,9vw,4rem) 1.5rem 3.5rem;
+  }
+
+  /* ---- header ---- */
+  header{text-align:center}
+
+  .mark{
+    font-family:'Fraunces',Georgia,serif;
+    font-weight:300;
+    font-size:2.35rem;
+    line-height:1;
+    letter-spacing:.01em;
+    margin:0;
+  }
+
+  .tag{
+    margin:.75rem 0 0;
+    font-size:1.03rem;
+    line-height:1.5;
+    color:var(--ink-soft);
+  }
+
+  .meta{
+    margin:.5rem 0 0;
+    font-size:.86rem;
+    letter-spacing:.05em;
+    color:var(--faience);
+  }
+
+  /* ---- plateau ---- */
+  .plateau{display:block;width:100%;height:40px;margin:1.6rem 0 2.2rem}
+  .plateau .ridge{fill:none;stroke:var(--faience);stroke-width:1.2;stroke-linejoin:round;opacity:.5}
+  .plateau .ground{stroke:var(--limestone);stroke-width:1.2}
+
+  /* ---- links ---- */
+  .group{margin:0 0 1.6rem}
+
+  .group-label{
+    font-size:.78rem;
+    letter-spacing:.09em;
+    color:var(--ink-soft);
+    margin:0 0 .6rem;
+    padding-left:.15rem;
+  }
+
+  a.link{
+    display:flex;
+    align-items:center;
+    gap:.85rem;
+    padding:.95rem 1.15rem;
+    margin-bottom:.6rem;
+    border:1px solid var(--limestone);
+    border-radius:11px;
+    background:#fff;
+    color:var(--ink);
+    text-decoration:none;
+    font-size:1rem;
+    transition:border-color .18s ease, transform .18s ease;
+  }
+  a.link:last-child{margin-bottom:0}
+
+  a.link:hover,a.link:focus-visible{
+    border-color:var(--faience);
+    transform:translateY(-1px);
+  }
+  a.link:focus-visible{outline:2px solid var(--faience);outline-offset:3px}
+
+  a.primary{
+    background:var(--lapis);
+    border-color:var(--lapis);
+    color:#fff;
+    font-weight:400;
+  }
+  a.primary:hover,a.primary:focus-visible{
+    background:#16304E;
+    border-color:#16304E;
+  }
+  a.primary .sub{color:rgba(255,255,255,.72)}
+
+  .icon{flex:0 0 22px;height:22px;display:grid;place-items:center}
+  .icon svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+  .label{display:flex;flex-direction:column;line-height:1.3}
+  .sub{font-size:.8rem;color:var(--ink-soft);margin-top:.12rem}
+
+  /* ---- footer ---- */
+  footer{
+    margin-top:2.4rem;
+    padding-top:1.5rem;
+    border-top:1px solid var(--limestone);
+    text-align:center;
+    font-size:.85rem;
+    line-height:1.6;
+    color:var(--ink-soft);
+  }
+  footer strong{font-weight:400;color:var(--ink)}
+
+  @media (prefers-reduced-motion:reduce){
+    a.link{transition:none}
+    a.link:hover{transform:none}
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <header>
+    <h1 class="mark">Te&#8209;Mari</h1>
+    <p class="tag">Open the curtains.<br>They're right there.</p>
+    <p class="meta">240 sqm &nbsp;·&nbsp; 3 bedrooms &nbsp;·&nbsp; Giza</p>
+  </header>
+
+  <svg class="plateau" viewBox="0 0 400 40" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path class="ridge" d="M52 33 L92 9 L132 33"/>
+    <path class="ridge" d="M126 33 L158 15 L190 33"/>
+    <path class="ridge" d="M186 33 L210 21 L234 33"/>
+    <line class="ground" x1="0" y1="33" x2="400" y2="33"/>
+  </svg>
+
+  <!-- ============================================
+       REPLACE EVERY "PASTE_..._HERE" BELOW.
+       WhatsApp: use your number in full international
+       form, no + and no spaces. Example for Egypt:
+       https://wa.me/201012345678
+       ============================================ -->
+
+  <section class="group">
+    <p class="group-label">Book</p>
+
+    <a class="link primary" href="https://wa.me/201282200051">
+      <span class="icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-12.6 7.3L3 20.5l1.7-5.3A8.5 8.5 0 1 1 21 11.5z"/></svg>
+      </span>
+      <span class="label">Book direct on WhatsApp
+        <span class="sub">Best rate — no booking fees</span>
+      </span>
+    </a>
+
+    <a class="link" href="PASTE_BOOKING_LINK_HERE">
+      <span class="icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M4 4h16v16H4z"/><path d="M8 9h5a2 2 0 0 1 0 4H8zm0 4h5.5a2 2 0 0 1 0 4H8z"/></svg>
+      </span>
+      <span class="label">Booking.com
+        <span class="sub">Read our guest reviews</span>
+      </span>
+    </a>
+
+    <a class="link" href="https://www.airbnb.com/rooms/1774217827878858493?guests=1&adults=1&s=67&unique_share_id=20137299-23ab-4a67-bb85-a1fb43be6387">
+      <span class="icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 21c-3 0-5-1.8-5-4.3 0-2.6 3-7.3 4.2-9.2a1 1 0 0 1 1.6 0C14 9.4 17 14.1 17 16.7 17 19.2 15 21 12 21z"/></svg>
+      </span>
+      <span class="label">Airbnb
+        <span class="sub">Instant booking available</span>
+      </span>
+    </a>
+  </section>
+
+  <section class="group">
+    <p class="group-label">See more</p>
+
+    <a class="link" href="https://www.instagram.com/temaripyramids?stkn=MXQyeWg4YjZtd2w0dw%3D%3D&utm_source=qr">
+      <span class="icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+      </span>
+      <span class="label">Instagram
+        <span class="sub">The view, every morning</span>
+      </span>
+    </a>
+
+    <a class="link" href="https://www.tiktok.com/@temaripyramids?is_from_webapp=1&sender_device=pc">
+      <span class="icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M15 3v10.5a4 4 0 1 1-3-3.87"/><path d="M15 6.5A4.5 4.5 0 0 0 19.5 9"/></svg>
+      </span>
+      <span class="label">TikTok
+        <span class="sub">Sunrise over the plateau</span>
+      </span>
+    </a>
+  </section>
+
+  <section class="group">
+    <p class="group-label">While you're here</p>
+
+    <a class="link" href="https://wa.me/201282200051?text=Hi%20Sherif%2C%20I%27d%20like%20to%20ask%20about%20a%20tour.">
+      <span class="icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 21s7-5.7 7-11a7 7 0 1 0-14 0c0 5.3 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+      </span>
+      <span class="label">Private tours &amp; airport pickup
+        <span class="sub">Pyramids, Saqqara, the Grand Egyptian Museum</span>
+      </span>
+    </a>
+  </section>
+
+  <footer>
+    <strong>Nazlet El-Semman, Giza</strong><br>
+    Minutes from the Pyramids gate and the Grand Egyptian Museum
+  </footer>
+
+</main>
+</body>
+</html>
